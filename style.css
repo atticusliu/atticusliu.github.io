@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+	background-color: #6f5499;
+	padding: 10%;
+}
+
+.post-box {
+	position: relative;
+	border: 3px;
+	border-color: #ffffff;
+}
+
+p {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4em;
+	font-weight: 200;
+	font-size: 3.0em;
+	margin-top: -0.5em;
+	color: #ffffff;
+}
+
+span {
+	color: #ffffff;
+	font-weight: 400;
+}
+
+#madlib {
+	padding: 40px 60px 60px 60px;
+	-webkit-font-smoothing: antialiased;
+	transition: color 1.6s ease-out, transform 1.6s ease-out;
+	transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+}
+
+@media only screen and (max-width: 480px) {
+
+   p#madlib {
+    font-size: 1.2em;
+    padding: 20px 30px 30px 30px;
+   }
+
+}
